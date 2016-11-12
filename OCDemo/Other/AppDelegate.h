@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-//99999
+
 @property (strong, nonatomic) UIWindow *window;
 
 
