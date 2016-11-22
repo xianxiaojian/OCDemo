@@ -22,7 +22,7 @@
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-
+    //master 
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
