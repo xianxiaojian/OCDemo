@@ -19,9 +19,6 @@ static NSString *const kCellId = @"cell";
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-
-    //linjing branch
-
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
