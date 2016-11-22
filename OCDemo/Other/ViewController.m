@@ -20,7 +20,7 @@ static NSString *const kCellId = @"cell";
     [super viewDidLoad];
 
 
-    //change viewController
+    //linjing branch
 
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;
