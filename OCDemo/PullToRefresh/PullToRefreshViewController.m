@@ -14,8 +14,10 @@
 #define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
 static NSString *const kCellId = @"cell";
 @interface PullToRefreshViewController ()<UITableViewDataSource,UITableViewDelegate>
+
 @property (nonatomic,weak) UITableView *tableView;
 @property (nonatomic,strong) NSMutableArray *array;
+
 @end
 
 @implementation PullToRefreshViewController
