@@ -20,7 +20,8 @@ static NSString *const kCellId = @"cell";
     [super viewDidLoad];
 
     //测试分支修改
-    //测试merge
+    //测试分支合并。。。
+
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
