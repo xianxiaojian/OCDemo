@@ -26,7 +26,7 @@ static NSString *const kCellId = @"cell";
     [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:kCellId];
     [self.view addSubview:tableView];
     
-    self.array = @[@"PullToRefresh",@"",@"",@"",@"",@""];
+    self.array = @[@"PullToRefresh",@"Test",@"",@"",@"",@""];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
